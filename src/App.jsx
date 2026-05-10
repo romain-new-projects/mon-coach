@@ -210,7 +210,7 @@ function getStreak(completedDays) {
 }
 
 // ── PIN LOCK ──────────────────────────────────────────────────────────────────
-const SECRET_PIN = "0000"; // ← Change ces 4 chiffres sur Vercel
+const SECRET_PIN = "1629"; // ← Change ces 4 chiffres sur Vercel
 
 function PinScreen({ onUnlock }) {
   const [pin, setPin] = useState("");
