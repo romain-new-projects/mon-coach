@@ -210,8 +210,8 @@ function getStreak(completedDays) {
 }
 
 // ── PIN LOCK ──────────────────────────────────────────────────────────────────
-const SECRET_PIN = "0000"; // ← Ton code admin (change sur GitHub)
-const GUEST_PIN = "1111";  // ← Code invité (change sur GitHub)
+const SECRET_PIN = "1629"; // ← Ton code admin (change sur GitHub)
+const GUEST_PIN = "2026";  // ← Code invité (change sur GitHub)
 
 function PinScreen({ onUnlock }) {
   const [pin, setPin] = useState("");
